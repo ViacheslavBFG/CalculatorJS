@@ -58,4 +58,5 @@ body {
 
 .output-js {
   text-align: center;
+  user-select: none;
 }
