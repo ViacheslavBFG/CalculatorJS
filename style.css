@@ -1,0 +1,61 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.main-container {
+  text-align: center;
+  margin-top: 140px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.input-js-a {
+  background-color: aqua;
+  border: none;
+  width: 200px;
+  height: 30px;
+  text-indent: 10px;
+  border-radius: 5px;
+}
+
+.input-js-b {
+  background-color: aqua;
+  border: none;
+  width: 200px;
+  height: 30px;
+  text-indent: 10px;
+  border-radius: 5px;
+}
+.select-option-js {
+  background-color: aqua;
+  border: none;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.btn-result-js {
+  background-color: aqua;
+  border: none;
+  width: 70px;
+  height: 30px;
+  transition: background-color 0.3s, border 0.3s;
+  border-radius: 5px;
+}
+
+.btn-result-js:hover {
+  border: 2px solid #00bfff;
+  cursor: pointer;
+}
+
+.btn-result-js:active {
+  background-color: #00bfff;
+}
+
+.output-js {
+  text-align: center;
+}
