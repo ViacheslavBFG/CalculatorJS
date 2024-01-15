@@ -45,6 +45,7 @@ body {
   height: 30px;
   transition: background-color 0.3s, border 0.3s;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .btn-result-js:hover {
